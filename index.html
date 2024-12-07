@@ -1,0 +1,585 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quicky - Minimal eCommerce</title>
+      <!-- links -->
+ <link rel="stylesheet" href="style.css">
+ <script src="https://cdn.tailwindcss.com"></script>
+ <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+ <script src="https://cdn.tailwindcss.com"></script>
+ <!-- links -->
+  <!-- google fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <!-- google fonts -->
+   <!-- font awsome -->
+   <script src="https://kit.fontawesome.com/b584887cdf.js" crossorigin="anonymous"></script>
+   <!-- font awsome -->
+    <style>
+     .font-poppins{
+        font-family: "Poppins", sans-serif;
+     }
+    </style>
+     <style>
+       /* smooth scrolling for entire document  */
+       html{
+        scroll-behavior: smooth;
+       }
+  </style>
+
+</head>
+<body class="font-poppins scroll-smooth">
+   <!-- header start -->
+   <header>
+    <!-- navbar -->
+    <nav class="md:container md:mx-auto">
+        <div class="navbar bg-base-100">
+            <div class="navbar-start">
+              <div class="dropdown">
+                <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="h-5 w-5"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor">
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M4 6h16M4 12h8m-8 6h16" />
+                  </svg>
+                </div>
+                <ul
+                  tabindex="0"
+                  class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+                  <li><a class="hover:bg-transparent md:text-lg text-base font-medium">Home</a></li>
+                  <li><a class="hover:bg-transparent md:text-lg text-base font-medium">Shop</a></li>
+                  <li><a class="hover:bg-transparent md:text-lg text-base font-medium">Pages</a></li>
+                  <li><a class="hover:bg-transparent md:text-lg text-base font-medium">Blog</a></li>
+                  <li><a class="hover:bg-transparent md:text-lg text-base font-medium">Contact</a></li>
+                </ul>
+            </div>
+            <a href="index.html" class=""><img src="img/1.webp" alt="logo"></a>
+        </div>
+            <div class="navbar-center hidden lg:flex">
+                <ul class="menu menu-horizontal px-1">
+                    <li><a class="hover:bg-transparent md:text-lg text-base font-medium transition duration-500 hover:text-[#A8741A]">Home</a></li>
+                    <li><a class="hover:bg-transparent md:text-lg text-base font-medium transition duration-500 hover:text-[#A8741A]">Shop</a></li>
+                    <li><a class="hover:bg-transparent md:text-lg text-base font-medium transition duration-500 hover:text-[#A8741A]">Pages</a></li>
+                    <li><a class="hover:bg-transparent md:text-lg text-base font-medium transition duration-500 hover:text-[#A8741A]">Blog</a></li>
+                    <li><a class="hover:bg-transparent md:text-lg text-base font-medium transition duration-500 hover:text-[#A8741A]">Contact</a></li>
+                </ul>
+            </div>
+            <div class="navbar-end">
+                <span class="md:text-lg text-base font-medium md:mr-8 mr-2 transition duration-500 hover:text-[#A8741A] cursor-pointer"><i class="fa-solid fa-magnifying-glass"></i></span>
+               <span class="md:text-lg text-base font-medium md:mr-4 mr-2 transition duration-500 hover:text-[#A8741A] cursor-pointer"><i class="fa-solid fa-bag-shopping md:mr-2 mr-2"></i>  $420 (10)</span>
+               <span class="md:text-lg text-base font-medium md:ml-4 ml-2 transition duration-500 hover:text-[#A8741A] cursor-pointer"><i class="fa-solid fa-user"></i></span>
+            </div>
+        </div> 
+    </nav>
+    
+          <!-- navbar -->
+     <!-- banner -->
+     <!-- slider -->
+     <section>
+     
+     <div style="background-image: url(img/1-1\ \(1\).webp);" class="carousel w-full">
+        <div id="slide1" class="carousel-item relative w-full">
+            <!-- hero part -->
+            <div class="hero md:px-5 md:py-5">
+                <div class="hero-content flex-col lg:flex-row-reverse lg:gap-96 md:gap-10">
+                  <img
+                    src="img/1 (1).webp"
+                    class="" />
+                  <div>
+                    <h1 class="lg:text-3xl md:text-xl text-xl font-normal">Basket Weave</h1>
+                    <p class="py-6 font-semibold">
+                     produce and supply various handicraft items all <br> over the world which ware very attracive
+                    </p>
+                    <div class="flex items-center gap-2 font-semibold">
+                        <a href="#" class="capitalize  transition duration-500 hover:text-[#A8741A] ">discover now!</a>
+                        <hr class="w-[100px] h-[3px] bg-black">
+                    </div>
+                  </div>
+            
+                </div>
+             
+              </div>
+            <!-- hero part -->
+          <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+            <a href="#slide4" class="btn rounded-none transition duration-500 bg-[#7B7871] hover:bg-black text-white">❮</a>
+            <a href="#slide2" class="btn rounded-none transition duration-500 bg-[#7B7871] hover:bg-black text-white">❯</a>
+          </div>
+        </div>
+        <div id="slide2" class="carousel-item relative w-full">
+           <!-- hero part -->
+           <div class="hero ">
+            <div class="hero-content flex-col lg:flex-row-reverse md:gap-96">
+              <img
+                src="img/2 (2).webp"
+                class="" />
+              <div>
+                <h1 class="lg:text-5xl md:text-3xl text-xl font-normal">Basket Weave</h1>
+                <p class="py-6 font-semibold">
+                 produce and supply various handicraft items all <br> over the world which ware very attracive
+                </p>
+                <div class="flex items-center gap-2 font-semibold">
+                    <a href="#" class="capitalize  transition duration-500 hover:text-[#A8741A] ">discover now!</a>
+                    <hr class="w-[100px] h-[3px] bg-black">
+                </div>
+              </div>
+        
+            </div>
+         
+          </div>
+        <!-- hero part -->
+          <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+            <a href="#slide1" class="btn rounded-none transition duration-500 bg-[#7B7871] hover:bg-black">❮</a>
+            <a href="#slide3" class="btn rounded-none transition duration-500 bg-[#7B7871] hover:bg-black">❯</a>
+          </div>
+        </div>
+        <div id="slide3" class="carousel-item relative w-full">
+         <!-- hero part -->
+         <div class="hero">
+            <div class="hero-content flex-col lg:flex-row md:gap-96">
+              <img
+                src="img/3.webp"
+                class="" />
+                <div>
+                    <h1 class="lg:text-5xl md:text-3xl text-xl font-normal">Basket Weave</h1>
+                    <p class="py-6 font-semibold">
+                     produce and supply various handicraft items all <br> over the world which ware very attracive
+                    </p>
+                    <div class="flex items-center gap-2 font-semibold">
+                        <a href="#" class="capitalize hover:text-[#A8741A] ">discover now!</a>
+                        <hr class="w-[100px] h-[3px] bg-black">
+                    </div>
+                  </div>
+            </div>
+          </div>
+         <!-- hero part -->
+          <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+            <a href="#slide2" class="btn rounded-none bg-[#7B7871] transition duration-500 hover:bg-black text-white">❮</a>
+            <a href="#slide1" class="btn rounded-none bg-[#7B7871] transition duration-500 hover:bg-black text-white">❯</a>
+          </div>
+        </div>
+    </section>
+     <!-- slider -->
+     <!-- banner -->
+   </header>
+   <!-- header end -->
+    <!-- main start -->
+    <main>
+      <!-- whole sale -->
+      <section class="lg:my-24 md:my-16 my-8">
+    <!-- sale -->
+     <div class="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 lg:gap-10 md:gap-6 gap-4">
+    <!-- sale-1 -->
+    <div class="row-span-4">
+     <img src="img/1-1.webp" alt="">
+    </div>
+    <!-- sale-1 -->
+    <!-- sale-2 -->
+    <div class="lg:flex">
+      <img src="img/1-2.webp" alt="img">
+      <img src="img/1-3.webp" alt="img">
+    </div>
+    <!-- sale-2 -->
+    <!-- sale-3 -->
+     <div class="col-span-2">
+     
+      <img class="" src="img/1-4.webp" alt="img">
+     </div>
+    <!-- sale-3 -->
+    </div>
+    <!-- sale -->
+      </section>
+      <!-- whole sale -->
+    <!-- Featured Products -->
+    <section class="lg:my-24 md:my-16 my-8 md:container md:mx-auto">
+     <!-- heading -->
+     <div class="text-center md:mb-8 mb-4">
+        <h3 class="md:text-3xl text-xl font-medium md:mb-4 mb-2" >Featured Products</h3>
+        <p>Produce and supply various Handicraft items all over <br> the world which were very attractive</p>
+     </div>
+     <!-- heading -->
+      <!-- prodects -->
+      <div class="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 lg:gap-10 md:gap-6 gap-4">
+       <!-- product-1 -->
+       <div class="card shadow-xl rounded-lg">
+        <figure>
+          <img class="w-full rounded-none"
+            src="img/1 (2).webp"
+            alt="img" />
+        </figure>
+        <div class="card-body">
+          <a href="#" class="card-title  transition duration-500 hover:text-[#A8741A]">White Black Poat</a>
+          <p><del class="text-[#C0C0C0]"><span class="text-[#C0C0C0] mr-2">$80.00</span></del> $60.00</p>
+
+         
+          <div class="card-actions justify-between">
+            <span>
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+              </span>
+              <span>Handicraft</span>
+          </div>
+        </div>
+      </div>
+       <!-- product-1 -->
+       <!-- product-2 -->
+       <div class="card shadow-xl rounded-lg">
+        <figure>
+          <img class="w-full rounded-none"
+            src="img/2 (1).webp"
+            alt="img" />
+        </figure>
+        <div class="card-body">
+          <a href="#" class="card-title hover:text-[#A8741A] transition duration-500">Cesteria Long</a>
+          <p><del class="text-[#C0C0C0]"><span class="text-[#C0C0C0] mr-2">$100.00</span></del> $90.00</p>
+
+         
+          <div class="card-actions justify-between">
+            <span>
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+              </span>
+              <span>Handicraft</span>
+          </div>
+        </div>
+      </div>
+       <!-- product-2 -->
+       <!-- product-3 -->
+       <div class="card shadow-xl rounded-lg">
+        <figure>
+          <img class="w-full rounded-none"
+            src="img/3 (1).webp"
+            alt="img" />
+        </figure>
+        <div class="card-body">
+          <a href="#" class="card-title transition duration-500 hover:text-[#A8741A]">Woodent Turning</a>
+          <p><del class="text-[#C0C0C0]"><span class="text-[#C0C0C0] mr-2">$45.00</span></del> $90.00</p>
+
+         
+          <div class="card-actions justify-between">
+            <span>
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+              </span>
+              <span>Handicraft</span>
+          </div>
+        </div>
+      </div>
+       <!-- product-3 -->
+          
+    </div>
+      <!-- prodects -->
+    </section>
+    <!-- Featured Products -->
+    <!-- Popular Products -->
+    <section class="lg:my-24 md:my-16 my-8 md:container md:mx-auto">
+        <!-- heading -->
+        <div class="text-center md:mb-8 mb-4">
+            <h3 class="md:text-3xl text-xl font-medium md:mb-4 mb-2" >Popular Products</h3>
+            <p>Produce and supply various Handicraft items all over <br> the world which were very attractive</p>
+         </div>
+        <!-- heading -->
+        <!-- products -->
+        <div class="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 lg:gap-10 md:gap-6 gap-4">
+        <!-- product-1 -->
+        <div class="card shadow-xl rounded-lg">
+            <figure>
+              <img class="w-full rounded-none"
+                src="img/4.webp"
+                alt="img" />
+            </figure>
+            <div class="card-body">
+              <a href="#" class="card-title  transition duration-500 hover:text-[#A8741A]">Thin Cap Poat</a>
+              <p><del class="text-[#C0C0C0]"><span class="text-[#C0C0C0] mr-2">$95.00</span></del> $55.00</p>
+    
+             
+              <div class="card-actions justify-between">
+                <span>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                  </span>
+                  <span>Handicraft</span>
+              </div>
+            </div>
+          </div>
+        <!-- product-1 -->
+        <!-- product-2 -->
+        <div class="card shadow-xl rounded-lg">
+            <figure>
+              <img class="w-full rounded-none"
+                src="img/6.webp"
+                alt="img" />
+            </figure>
+            <div class="card-body">
+              <a href="#" class="card-title  transition duration-500 hover:text-[#A8741A]">Water Jug</a>
+              <p><del class="text-[#C0C0C0]"><span class="text-[#C0C0C0] mr-2">$62.00</span></del> $28.00</p>
+    
+             
+              <div class="card-actions justify-between">
+                <span>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                  </span>
+                  <span>Handicraft</span>
+              </div>
+            </div>
+          </div>
+        <!-- product-2 -->
+        <!-- product-3 -->
+        <div class="card shadow-xl rounded-lg">
+            <figure>
+              <img class="w-full rounded-none"
+                src="img/8.webp"
+                alt="img" />
+            </figure>
+            <div class="card-body">
+              <a href="#" class="card-title  transition duration-500 hover:text-[#A8741A]">Delereto Veselo</a>
+              <p><del class="text-[#C0C0C0]"><span class="text-[#C0C0C0] mr-2">$120.00</span></del> $97.00</p>
+    
+             
+              <div class="card-actions justify-between">
+                <span>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                  </span>
+                  <span>Handicraft</span>
+              </div>
+            </div>
+          </div>
+        <!-- product-3 -->
+        <!-- product-4 -->
+        <div class="card shadow-xl rounded-lg">
+            <figure>
+              <img class="w-full rounded-none"
+                src="img/5.webp"
+                alt="img" />
+            </figure>
+            <div class="card-body">
+              <a href="#" class="card-title  transition duration-500 hover:text-[#A8741A]">Basket vessel</a>
+              <p><del class="text-[#C0C0C0]"><span class="text-[#C0C0C0] mr-2">$120.00</span></del> $75.00</p>
+    
+             
+              <div class="card-actions justify-between">
+                <span>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                  </span>
+                  <span>Handicraft</span>
+              </div>
+            </div>
+          </div>
+        <!-- product-4 -->
+        <!-- product-5 -->
+        <div class="card shadow-xl rounded-lg">
+            <figure>
+              <img class="w-full rounded-none"
+                src="img/7.webp"
+                alt="img" />
+            </figure>
+            <div class="card-body">
+              <a href="#" class="card-title  transition duration-500 hover:text-[#A8741A]">Bamboo vessel</a>
+              <p><del class="text-[#C0C0C0]"><span class="text-[#C0C0C0] mr-2">$65.00</span></del> $39.00</p>
+    
+             
+              <div class="card-actions justify-between">
+                <span>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                  </span>
+                  <span>Handicraft</span>
+              </div>
+            </div>
+          </div>
+        <!-- product-5 -->
+        <!-- product-6 -->
+        <div class="card shadow-xl rounded-lg">
+            <figure>
+              <img class="w-full rounded-none"
+                src="img/9.webp"
+                alt="img" />
+            </figure>
+            <div class="card-body">
+              <a href="#" class="card-title  transition duration-500 hover:text-[#A8741A]">Primium Style Poat</a>
+              <p><del class="text-[#C0C0C0]"><span class="text-[#C0C0C0] mr-2">$75.00</span></del> $49.00</p>
+    
+             
+              <div class="card-actions justify-between">
+                <span>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                  </span>
+                  <span>Handicraft</span>
+              </div>
+            </div>
+          </div>
+        <!-- product-6 -->
+
+        </div>
+        <!-- products -->
+    </section>
+    <!-- Popular Products -->
+    <!-- hot deal -->
+        <section class="lg:my-24 md:my-16 my-8 md:container md:mx-auto">
+      <!-- deals -->
+      <div class="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 lg:gap-10 md:gap-6 gap-4">
+       <!-- deal-1 -->
+       <div class="">
+        <img src="img/1-5.webp" alt="img">
+       </div>
+       <!-- deal-1 -->
+       <!-- deal-2 -->
+       <div class="">
+        <img src="img/1-3.webp" alt="img">
+       </div>
+       <!-- deal-2 -->
+       <!-- deal-3 -->
+       <div class="">
+        <img src="img/1-7.webp" alt="img">
+       </div>
+       <!-- deal-3 -->
+
+    </div>
+      <!-- deals -->
+        </section>
+    <!-- hot deal -->
+    <!-- survices -->
+    <section class="lg:my-24 md:my-16 my-8 md:container md:mx-auto">
+    <!-- survice-list -->
+    <div class="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 lg:gap-10 md:gap-6 gap-4">
+       <!-- item-1 -->
+       <div class="card">
+      <div class="card-body">
+
+        <div class="flex gap-5">
+          
+            <div class="lg:w-16 md:w-14">
+              <img class="rounded-full" src="img/1 (3).webp" />
+          </div>
+          <div class="">
+            <h2 class="card-title">Free Home Delivery</h2>
+            <p>Provide free home delivery for all product over $100</p>
+            
+          </div>
+        </div>
+      </div>
+      </div>
+       <!-- item-1 -->
+       <!-- item-2 -->
+       <div class="card">
+        <div class="card-body">
+  
+          <div class="flex gap-5">
+            
+              <div class="lg:w-16 md:w-14">
+                <img class="rounded-full" src="img/2 (3).webp" />
+            </div>
+            <div class="">
+              <h2 class="card-title">Quality Products</h2>
+              <p>We ensure our product quality all  times</p>
+              
+            </div>
+          </div>
+        </div>
+        </div>
+       <!-- item-2 -->
+       <!-- item-3 -->
+       <div class="card">
+        <div class="card-body">
+  
+          <div class="flex gap-5">
+            
+              <div class="lg:w-16 md:w-14 ">
+                <img class="rounded-full" src="img/3 (2).webp" />
+            </div>
+            <div class="">
+              <h2 class="card-title">3 Day Return</h2>
+              <p>Our producr return policy is very easy & simple</p>
+              
+            </div>
+          </div>
+        </div>
+        </div>
+       <!-- item-3 -->
+    </div>
+    <!-- survice-list -->
+    </section>
+    <!-- survices -->
+    </main>
+    <!-- main start -->
+     <!-- footer start -->
+     <footer class="footer bg-[#DDEEE9] p-10 md:py-28 py-14">
+      <aside>
+       <div class="">
+        <img src="img/1.webp" alt="logo">
+       </div>
+        <p class="md:py-6 py-3 border-b border-2 border-b-gray-500">
+          Produce and supply various Handi <br> craft items all over the world which were <br> very attractive
+        </p>
+        <div class="md:mt-4 mt-2">
+          <i class="fa-brands fa-facebook md:text-2xl text-xl mr-3 cursor-pointer font-medium transition duration-500 hover:text-[#A8741A]"></i>
+          <i class="fa-brands fa-twitter md:text-2xl text-xl mr-3 cursor-pointer font-medium transition duration-500 hover:text-[#A8741A]"></i>
+          <i class="fa-brands fa-skype md:text-2xl text-xl mr-3 cursor-pointer font-medium transition duration-500 hover:text-[#A8741A]"></i>
+          <i class="fa-brands fa-instagram md:text-2xl text-xl mr-3 cursor-pointer font-medium transition duration-500 hover:text-[#A8741A]"></i>
+        </div>
+      </aside>
+      <nav>
+        <h6 class="md:text-xl text-lg font-semibold">Quick Link</h6>
+        <a href="" class="text-base font-medium transition duration-500 hover:text-[#A8741A]">About us</a>
+        <a href="" class="text-base font-medium transition duration-500 hover:text-[#A8741A]">Our Service</a>
+        <a href="" class="text-base font-medium transition duration-500 hover:text-[#A8741A]">Pages</a>
+        <a href="" class="text-base font-medium transition duration-500 hover:text-[#A8741A]">Contact</a>
+      </nav>
+      <nav>
+        <h6 class="md:text-xl text-lg font-semibold">Information</h6>
+        <a href="" class="text-base font-medium transition duration-500 hover:text-[#A8741A]">Payment System</a>
+        <a href="" class="text-base font-medium transition duration-500 hover:text-[#A8741A]">Return Policy</a>
+        <a href="" class="text-base font-medium transition duration-500 hover:text-[#A8741A]">Terms & Conditins</a>
+        <a href="" class="text-base font-medium transition duration-500 hover:text-[#A8741A]">Quick Support</a>
+      </nav>
+      <nav>
+        <h6 class="md:text-xl text-lg font-semibold">Get in Touch</h6>
+       <p class="text-base font-medium">265, South Block, Holly City Main <br> Street, Melbourne, Australia</p>
+        <a href="" class="text-base font-medium transition duration-500 hover:text-[#A8741A]">info@example.com</a>
+        <a href="" class="text-base font-medium transition duration-500 hover:text-[#A8741A]">www.example.com</a>
+        <a href="" class="md:text-2xl text-lg font-semibold transition duration-500 hover:text-[#A8741A]">+0981 2568 658</a>
+      </nav>
+    </footer>
+     <!-- footer end -->
+</body>
+</html>
